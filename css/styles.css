@@ -486,6 +486,9 @@ footer {
         grid-template-rows: auto auto auto auto auto auto;
         grid-template-columns: auto;
     }
+    .form {
+        margin-top: 0px;
+    }
     .titulos1 {
         grid-area: titulos;
     }
@@ -495,11 +498,8 @@ footer {
     .titulos3 {
         grid-area: titulos3;
     }
-    .form {
-        margin-bottom: 6vh;
-    }
     .social {
-        padding-left: 100px;
+        padding-left: 65px;
     }
     .social img {
         margin-top: 25px;
@@ -509,6 +509,7 @@ footer {
     }
     .extra {
         margin-bottom: 3vh;
+        padding-left: 65px;
     }
 }
 .form-login {
