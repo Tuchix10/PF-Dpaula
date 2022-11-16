@@ -488,15 +488,23 @@ footer {
     }
     .form {
         margin-top: 0px;
+        width: 60vw;
+        margin-bottom: 6vh;
     }
     .titulos1 {
         grid-area: titulos;
+        width: 100%;
+        flex-wrap: wrap;
     }
     .titulos2 {
         grid-area: titulos2;
+        width: 100%;
+        flex-wrap: wrap;
     }
     .titulos3 {
         grid-area: titulos3;
+        width: 100%;
+        flex-wrap: wrap;
     }
     .social {
         padding-left: 65px;
