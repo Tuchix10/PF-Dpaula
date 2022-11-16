@@ -489,17 +489,14 @@ footer {
     }
     .titulos1 {
         grid-area: titulos;
-        width: 100%;
         flex-wrap: wrap;
     }
     .titulos2 {
         grid-area: titulos2;
-        width: 100%;
         flex-wrap: wrap;
     }
     .titulos3 {
         grid-area: titulos3;
-        width: 100%;
         flex-wrap: wrap;
     }
     .social {
