@@ -469,7 +469,6 @@ footer {
         margin: auto;
         margin-top: 4vh;
         margin-bottom: 3vh;
-        min-width: 450px;
         height: 100%;
         border-radius: 30px;
         box-shadow: 7px 17px 37px #262626;
@@ -487,7 +486,6 @@ footer {
     .form {
         margin-top: 0px;
         width: 60vw;
-        margin-bottom: 6vh;
     }
     .titulos1 {
         grid-area: titulos;
