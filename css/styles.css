@@ -10,17 +10,75 @@ img {
     height: auto;
     max-width: 100%;
 }
+.bienvenida {
+    display: none;
+}
 .titulo {
-    background-color: white;
-    border-radius: 25px;
-    height: 100%;
-    width: 90vw;
-    margin: auto;
+    display: none;
 }
 .titulo img {
-    border-radius: 25px;
-    width: 90vw;
-    padding: 10px;
+    display: none;
+}
+.titulo-inicio {
+    margin-top: 5vh;
+    position: relative;   
+    display: flex;
+}
+.titulo-inicio img {
+    margin: auto;
+    border-radius: 30px;
+}
+.titulo-inicio-texto-izq1 {
+    position: absolute;
+    top: 15vh;
+    left: 15vw;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, .8);
+    animation-delay: 0.4s;
+}
+.titulo-inicio-texto-izq2 {
+    position: absolute;
+    bottom: 12vh;
+    left: 10vw;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, .8);
+    animation-delay: 0.8s;
+}
+.titulo-inicio-texto-der {
+    position: absolute;
+    top: 24vw;
+    right: 10vw;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, .8);
+    animation-delay: 0.6s;
+}
+.animate__animated.animate__fadeIn {
+    animation-duration: 1s;
+}
+@media screen and (max-width: 916px) {
+    .titulo {
+        display: block;
+        background-color: white;
+        border-radius: 25px;
+        height: 100%;
+        width: 90vw;
+        margin: auto;
+    }
+    .titulo img {
+        display: block;
+        border-radius: 25px;
+        width: 90vw;
+        padding: 10px;
+    }
+    .bienvenida {
+        display: block;
+    }
+    .titulo-inicio {
+        display: none;
+    }
 }
 h3 {
     text-align: center;
@@ -55,7 +113,7 @@ h3 {
     text-align: center;
     font-size: 25px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 915px) {
     .asociados {
         display: flex;
         flex-direction: column;
@@ -98,7 +156,31 @@ h3 {
 .ventana4 {
     animation-delay: 0.2s;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 916px) {
+    .cartasvarias {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        border-radius: 25px;
+        width: 95vw;
+        margin: auto;
+        margin-bottom: 3vh;
+    }
+    .card.varias {
+        height: 70vh;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+    }
+    .card.varias img {
+        height: 25vh;
+        width: 35vw;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 811px) {
     .cartasvarias {
         background-color: white;
         display: flex;
@@ -535,6 +617,15 @@ footer {
     border-radius: 30px;
     margin-top: 5vh;
 }
+@media screen and (max-width: 916px) and (min-width: 769px) {
+    .log-img {
+        height: 100%;
+        width: 65vw;
+    }
+    .form-login {
+        width: 50vw;
+    }
+}
 @media screen and (max-width: 768px) {
     .log-img {
         width: 90vw;
@@ -567,6 +658,67 @@ footer {
 }
 .carousel-inner {
     border-radius: 20px;
+}
+.titulo-inicio-about {
+    margin-top: 5vh;
+    position: relative;   
+    display: flex;
+}
+.titulo-inicio-about img {
+    margin: auto;
+    border-radius: 30px;
+}
+.titulo-inicioabout-texto-izq1 {
+    position: absolute;
+    bottom: 55vw;
+    width: 40vw;
+    left: 8vw;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, .6);
+    animation-delay: 0.4s;
+}
+.titulo-inicioabout-texto-der {
+    position: absolute;
+    width: 30vw;
+    bottom: 30vw;
+    right: 30vw;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, .8);
+    animation-delay: 0.6s;
+}
+.titulo-inicioabout-texto-izq2 {
+    position: absolute;
+    width: 25vw;
+    bottom: 10vw;
+    left:45vw;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, .8);
+    animation-delay: 0.8s;
+}
+@media screen and (max-width: 916px) {
+    .titulo {
+        display: block;
+        background-color: white;
+        border-radius: 25px;
+        height: 100%;
+        width: 90vw;
+        margin: auto;
+    }
+    .titulo img {
+        display: block;
+        border-radius: 25px;
+        width: 90vw;
+        padding: 10px;
+    }
+    .bienvenida {
+        display: block;
+    }
+    .titulo-inicio-about {
+        display: none;
+    }
 }
 .grid-about {
     display: grid;
