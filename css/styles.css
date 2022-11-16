@@ -589,6 +589,9 @@ footer {
     .log-img {
         width: 100%;
     }
+    .form-login {
+        width: 75vw;
+    }
 }
 .about {
     background-image: url(../img/102219856-470895073.jpg);
