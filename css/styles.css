@@ -91,19 +91,20 @@ h3 {
 }
 .contenedorimgs {
     width: 25vw;
-    height: 30vh;
+    max-width: 178vw;
+    min-width: 320px;
 }
 .avalian {
     margin-top: 5vh;
-    width: 25vw;
+    width: 100%;
     height: 18vh;
 }
 .osde {
-    width: 25vw;
+    width: 100%;
     height: 30vh;
 }
 .sancor {
-    width: 25vw;
+    width: 100%;
     height: 25vh;
 }
 .asociados-text {
@@ -359,6 +360,11 @@ footer {
     .logofinal {
         padding: 3vh;
     }
+    .rss-img {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
     .rss-img img {
         width: 100%;
         height: 5vh;
@@ -578,6 +584,11 @@ footer {
     margin: auto;
     border-radius: 30px;
     margin-top: 5vh;
+}
+@media screen and (max-width: 768px) {
+    .log-img {
+        width: 100%;
+    }
 }
 .about {
     background-image: url(../img/102219856-470895073.jpg);
