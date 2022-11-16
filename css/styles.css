@@ -443,8 +443,6 @@ footer {
 .form {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 250px;
     margin-top: 20px;
     margin-left: 50px;
 }
@@ -471,7 +469,7 @@ footer {
         margin: auto;
         margin-top: 4vh;
         margin-bottom: 3vh;
-        max-width: 450px;
+        min-width: 450px;
         height: 100%;
         border-radius: 30px;
         box-shadow: 7px 17px 37px #262626;
