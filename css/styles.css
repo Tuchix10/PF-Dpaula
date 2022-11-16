@@ -470,6 +470,7 @@ footer {
         margin-top: 4vh;
         margin-bottom: 3vh;
         height: 100%;
+        width: 95vw;
         border-radius: 30px;
         box-shadow: 7px 17px 37px #262626;
         display: grid;
@@ -500,7 +501,7 @@ footer {
         flex-wrap: wrap;
     }
     .social {
-        padding-left: 65px;
+        padding-left: 45px;
     }
     .social img {
         margin-top: 25px;
@@ -510,7 +511,10 @@ footer {
     }
     .extra {
         margin-bottom: 3vh;
-        padding-left: 65px;
+        padding-left: 45px;
+    }
+    .send {
+    margin: auto;
     }
 }
 .form-login {
@@ -589,7 +593,7 @@ footer {
 }
 @media screen and (max-width: 768px) {
     .log-img {
-        width: 100%;
+        width: 90vw;
     }
     .form-login {
         width: 75vw;
