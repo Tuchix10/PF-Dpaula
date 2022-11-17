@@ -617,7 +617,7 @@ footer {
     border-radius: 30px;
     margin-top: 5vh;
 }
-@media screen and (max-width: 916px) and (min-width: 769px) {
+@media screen and (max-width: 916px) and (min-width: 769px) and (min-height: 320px) {
     .log-img {
         height: 100%;
         width: 65vw;
