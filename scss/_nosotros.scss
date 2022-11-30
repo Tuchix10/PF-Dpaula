@@ -1,3 +1,4 @@
+/*/ ENTRADA /*/
 .banner-about {
     background-image: url(../img/banner2.jpeg);
     background-size: cover;
@@ -56,6 +57,7 @@
         margin-top: 35px;
     }
 }
+/*/ CEO /*/
 .tituloCEO {
     margin-top: 8vw;
     margin-left: 5vw;
@@ -137,6 +139,7 @@
         }
     }
 }
+/*/ ESTADISTICAS /*/
 .tituloestadisticas {
     margin-top: 8vw;
     margin-left: 42vw;
@@ -205,6 +208,7 @@
         }
     }
 }
+/*/ TESTIMONIOS /*/
 .titulotestimonio {
     h2 {
         margin-left: 5vw;
@@ -254,6 +258,7 @@
 .testimonio6 {
     grid-area: carta6;
 }
+/*/ GRILLA DE PROFESIONALES /*/
 .tituloprofesionales {
     h2 {
         @extend .titulos-general-about;
@@ -292,6 +297,7 @@
         }
     }
 }
+/*/ CARTA INGRESO /*/
 .backfinal {
     margin: auto;
     background-color: #c6e4fc;

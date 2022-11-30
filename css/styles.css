@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*/ BASICOS /*/
 /*/ PANTALLA /*/
 /*/ MISC /*/
@@ -74,6 +75,7 @@ footer {
   background-color: white;
 }
 
+/*/ ENTRADA /*/
 .titulo {
   display: none;
 }
@@ -170,6 +172,7 @@ footer {
     font-size: medium;
   }
 }
+/*/ OBRAS SOCIALES /*/
 .tituloasociados {
   color: rgb(192, 233, 255);
   font-size: 30px;
@@ -249,6 +252,7 @@ footer {
     height: 25vh;
   }
 }
+/*/ 4 CARTAS /*/
 .cartasvarias {
   box-shadow: 7px 13px 37px #1a3d69;
   background-color: white;
@@ -325,6 +329,7 @@ footer {
     width: 100%;
   }
 }
+/*/ PEQUEÑA BARRA DE NAV /*/
 .nav {
   text-decoration: none;
   background-color: #262626;
@@ -344,6 +349,13 @@ footer {
   background-color: #434343;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  .nav {
+    width: 90%;
+    justify-content: space-evenly;
+  }
+}
+/*/ CARTA DE LA PAREJA /*/
 .card-title {
   text-align: center;
 }
@@ -399,12 +411,6 @@ footer {
     margin-top: 12vh;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 1200px) {
-  .nav {
-    width: 90%;
-    justify-content: space-evenly;
-  }
-}
 .form-login {
   width: 400px;
   height: 340px;
@@ -414,7 +420,7 @@ footer {
   padding: 20px 30px;
   color: white;
 }
-.form-login h5 {
+.form-login h1 {
   margin: 0;
   text-align: center;
   height: 40px;
@@ -502,6 +508,7 @@ footer {
     width: 75vw;
   }
 }
+/*/ ENTRADA /*/
 .banner-about {
   background-image: url(../img/banner2.jpeg);
   background-size: cover;
@@ -560,6 +567,7 @@ footer {
     margin-top: 35px;
   }
 }
+/*/ CEO /*/
 .tituloCEO {
   margin-top: 8vw;
   margin-left: 5vw;
@@ -634,6 +642,7 @@ footer {
     margin-top: 10vw;
   }
 }
+/*/ ESTADISTICAS /*/
 .tituloestadisticas {
   margin-top: 8vw;
   margin-left: 42vw;
@@ -706,6 +715,7 @@ footer {
     margin-bottom: 30px;
   }
 }
+/*/ TESTIMONIOS /*/
 .titulotestimonio h2 {
   margin-left: 5vw;
 }
@@ -759,6 +769,7 @@ footer {
   grid-area: carta6;
 }
 
+/*/ GRILLA DE PROFESIONALES /*/
 .tituloprofesionales h2 {
   text-align: center;
   margin-top: 100px;
@@ -794,6 +805,7 @@ footer {
     font-size: 20px;
   }
 }
+/*/ CARTA INGRESO /*/
 .backfinal {
   margin: auto;
   background-color: #c6e4fc;
@@ -848,6 +860,15 @@ footer {
   color: white;
 }
 
+/*/ GENERAL /*/
+.tarjetacontacto h1 {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
 .contact {
   background-image: url(../img/Bg.jpg);
   background-size: cover;
@@ -855,7 +876,7 @@ footer {
   background-repeat: no-repeat;
   image-rendering: optimizeQuality;
   margin: auto;
-  margin-top: 17vh;
+  margin-top: 6vh;
   margin-bottom: 181px;
   width: 95vw;
   height: 500px;
@@ -874,6 +895,7 @@ footer {
   text-align: center;
 }
 
+/*/ REDES SOCIALES /*/
 .social {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -900,6 +922,7 @@ footer {
   text-decoration: underline;
 }
 
+/*/ MEDIOS EXTRA /*/
 .extra {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -921,6 +944,7 @@ footer {
   margin-top: 46px;
 }
 
+/*/ FORMULARIO /*/
 .form {
   margin-top: 20px;
   margin-left: 50px;
@@ -1011,6 +1035,7 @@ footer {
     margin-top: 93px;
   }
 }
+/*/ GENERAL /*/
 .foot-responsive {
   margin-left: 30px;
 }
@@ -1024,6 +1049,7 @@ footer {
   padding: 2.5vw;
 }
 
+/*/ REDES SOCIALES /*/
 .rss-img img {
   width: 39px;
   height: 37px;

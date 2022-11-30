@@ -1,3 +1,4 @@
+/*/ ENTRADA /*/
 .titulo {
     display: none;
     img {
@@ -100,6 +101,7 @@
         }
     }
 }
+/*/ OBRAS SOCIALES /*/
 .tituloasociados {
     @extend .titulos-general-about;
     color: rgb(192, 233, 255);
@@ -174,6 +176,7 @@
         height: 25vh;
     }
 }
+/*/ 4 CARTAS /*/
 .cartasvarias {
     box-shadow: 7px 13px 37px #1a3d69;
     background-color: white;
@@ -247,6 +250,7 @@
         }
     }
 }
+/*/ PEQUEÑA BARRA DE NAV /*/
 .nav {
     text-decoration: none;
     background-color: #262626;
@@ -265,6 +269,13 @@
         background-color: #434343;
     }
 }
+@media screen and (min-width: $Pantallachica) and (max-width: $PantallaXL) {
+    .nav {
+        width: 90%;
+        justify-content: space-evenly;
+    }
+}
+/*/ CARTA DE LA PAREJA /*/
 .card-title {
     text-align: center;
 }
@@ -322,11 +333,5 @@
             height: 65%;
             margin-top: 12vh;
         }
-    }
-}
-@media screen and (min-width: $Pantallachica) and (max-width: $PantallaXL) {
-    .nav {
-        width: 90%;
-        justify-content: space-evenly;
     }
 }
