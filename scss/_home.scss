@@ -135,18 +135,27 @@
     font-size: 25px;
 }
 @media screen and (max-width: $Pantallamediana) {
+    .tituloasociados {
+        margin-bottom: 0px;
+    }
     .asociados {
-        @include flexcolumnas;
-        align-items:center;
-        margin-bottom: 3vh;
+        display: grid;
+        grid-template-columns: auto auto;
         .contenedorimgs {
             width: 100%;
         }
         img {
             width: 100%;
         }
+        .osde {
+            height: 17vh;
+        }
         .avalian {
             height: 8vh;
+        }
+        .apross {
+            height: 5vh;
+            margin-top: 65px;
         }
     }
 }
@@ -238,7 +247,7 @@
         }
     }
 }
-.nav.justify-content-center {
+.nav {
     text-decoration: none;
     background-color: #262626;
     width: 24.67vw;
@@ -313,5 +322,11 @@
             height: 65%;
             margin-top: 12vh;
         }
+    }
+}
+@media screen and (min-width: $Pantallachica) and (max-width: $PantallaXL) {
+    .nav {
+        width: 90%;
+        justify-content: space-evenly;
     }
 }
