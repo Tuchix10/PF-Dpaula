@@ -9,7 +9,7 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-.titulos-general-about, .titulosprofesionales, .tituloprofesionales h2, .estadisticas h2, .tituloestadisticas, .tituloCEO {
+.titulos-general-about, .titulosprofesionales, .tituloprofesionales h2, .estadisticas h2, .tituloestadisticas, .tituloCEO, .tituloasociados {
   font-size: 35px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(0, 0, 0, 0.8);
@@ -170,6 +170,14 @@ footer {
     font-size: medium;
   }
 }
+.tituloasociados {
+  color: rgb(192, 233, 255);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
 .asociados {
   justify-content: space-evenly;
   align-items: center;
@@ -212,11 +220,10 @@ footer {
     width: 100%;
   }
   .asociados img {
-    width: 55%;
-    margin-left: 66px;
+    width: 100%;
   }
   .asociados .avalian {
-    height: 7vh;
+    height: 8vh;
   }
 }
 @media screen and (min-width: 914px) and (max-width: 1200px) {
@@ -271,7 +278,7 @@ footer {
   animation-duration: 2s;
 }
 
-@media screen and (min-width: 914px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .cartasvarias {
     height: 100%;
     border-radius: 30px;
@@ -1044,41 +1051,20 @@ footer {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 914px) {
+@media screen and (max-width: 768px) {
   footer {
     margin-top: 3vh;
     display: flex;
     flex-direction: column;
   }
-  .foot-responsive {
-    display: flex;
-    flex-direction: row;
-    margin-left: 12vw;
-  }
   .img-final {
-    width: 75vw;
-    height: 25vw;
-    margin-left: 7vw;
-  }
-  .rss-img {
-    display: flex;
-    flex-direction: column;
-  }
-  .rss-img img {
     width: 100%;
-    height: 5vh;
-    margin-top: 3vh;
-  }
-  .rss-txt {
-    margin-top: 28px;
-  }
-  .rss-txt a {
-    margin-bottom: 42px;
+    height: 100%;
   }
 }
-@media screen and (min-width: 914px) and (max-width: 1200px) {
-  .img-final {
-    margin-top: 55px;
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .logofinal img {
+    margin-top: 4vw;
   }
 }
 

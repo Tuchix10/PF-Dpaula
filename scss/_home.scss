@@ -100,6 +100,14 @@
         }
     }
 }
+.tituloasociados {
+    @extend .titulos-general-about;
+    color: rgb(192, 233, 255);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
 .asociados {
     @extend .flexrows;
     justify-content: space-evenly;
@@ -135,11 +143,10 @@
             width: 100%;
         }
         img {
-            width: 55%;
-            margin-left: 66px;
+            width: 100%;
         }
         .avalian {
-            height: 7vh;
+            height: 8vh;
         }
     }
 }
@@ -193,7 +200,7 @@
 .animate__animated.animate__backInLeft {
     animation-duration: 2s;
 }
-@media screen and (min-width: $Pantallagrande) and (max-width: $PantallaXL) {
+@media screen and (min-width: $Pantallamediana) and (max-width: $PantallaXL) {
     .cartasvarias {
         height: 100%;
         border-radius: $borde;

@@ -54,37 +54,20 @@
         }
     }
 }
-@media screen and (max-width: $Pantallagrande) {
+@media screen and (max-width: $Pantallamediana) {
     footer {
         margin-top: 3vh;
         @include flexcolumnas;
     }
-    .foot-responsive {
-        @include flexrows;
-        margin-left: 12vw;
-    }
     .img-final {
-        width: 75vw;
-        height: 25vw;
-        margin-left: 7vw;
-    }
-    .rss-img {
-        @include flexcolumnas;
-        img {
-            width: 100%;
-            height: 5vh;
-            margin-top: 3vh;
-        }
-    }
-    .rss-txt {
-        margin-top: 28px;
-        a {
-            margin-bottom: 42px;
-        }
+        width: 100%;
+        height: 100%;
     }
 }
-@media screen and (min-width: $Pantallagrande) and (max-width: $PantallaXL) {
-    .img-final {
-        margin-top: 55px;
+@media screen and (min-width: $Pantallamediana) and (max-width: $PantallaXL) {
+    .logofinal {
+        img {
+            margin-top: 4vw;
+        }
     }
 }
