@@ -1,0 +1,91 @@
+.form-login {
+    width: 400px;
+    height: 340px;
+    background: #255c99;
+    margin: auto;
+    box-shadow: 7px 13px 37px #262626;
+    padding: 20px 30px;
+    color: white;
+    h5 {
+        margin: 0;
+        text-align: center;
+        height: 40px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p {
+        height: 40px;
+        text-align: center;
+        border-bottom: 1px solid;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+.entrada {
+    width: 100%;
+    border: 1px solid #262626;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #262626;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.enviar {
+    width: 100%;
+    height: 40px;
+    background: #7EA3CC;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+.enviar:hover {
+    text-decoration: underline;
+    background-color: #434343;
+}
+.log {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.log-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: $bgimg;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    width: 90%;
+    height: 75%;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 5vh;
+}
+@media screen and (min-width: $Pantallamediana) and (max-width: $PantallaXL)  {
+    .log-img {
+        height: 100%;
+        width: 65vw;
+    }
+    .form-login {
+        width: 50vw;
+    }
+}
+@media screen and (max-width: $Pantallamediana) {
+    .log-img {
+        width: 90vw;
+    }
+    .form-login {
+        width: 75vw;
+    }
+}
