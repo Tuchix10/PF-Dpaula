@@ -141,7 +141,6 @@
     margin-top: 8vw;
     margin-left: 42vw;
     @extend .titulos-general-about;
-    width: 60vw;
 }
 .estadisticas {
     display: grid;
@@ -182,7 +181,6 @@
     .tituloestadisticas {
         margin-top: 75px;
         margin-left: 35px;
-        width: 100%;
         font-size: 28px;
     }
     .estadisticas {
@@ -294,6 +292,15 @@
         }
     }
 }
+.backfinal {
+    margin: auto;
+    background-color: #c6e4fc;
+    width: 70vw;
+    margin-top: 25px;
+    box-shadow: 7px 13px 37px #1a3d69;
+    border-radius: $borde;
+    padding: 15px;
+}
 @media screen and (min-width: $Pantallachica) and (max-width: $Pantallamediana) {
     .cardprofesionales {
         @include flexcolumnas;
@@ -303,29 +310,18 @@
         width: 95%;
         margin: auto;
     }
-}
-.backfinal {
-    margin: auto;
-    background-color: #c6e4fc;
-    width: 35vw;
-    margin-top: 25px;
-    box-shadow: 7px 13px 37px #1a3d69;
-    border-radius: $borde;
-    padding: 15px;
-}
-@media screen and (max-width: $Pantallamediana) {
     .testimonios {
-    @include flexcolumnas;
-    gap: 130px;
-    margin-left: 50px;
-        p {
-            font-size: 20px;
+        @include flexcolumnas;
+        gap: 130px;
+        margin-left: 50px;
+            p {
+                font-size: 20px;
+            }
+            h2 {
+                font-size: 22px;
+            }
         }
-        h2 {
-            font-size: 22px;
-        }
-    }
     .backfinal {
-        width: fit-content;
+        width: 95vw;
     }
 }
